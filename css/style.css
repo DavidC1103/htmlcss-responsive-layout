@@ -16,6 +16,10 @@
   align-items: center;
 }
 
+.wrap {
+  flex-wrap: wrap;
+}
+
 .desktop {
   display: none;
 }
@@ -27,21 +31,16 @@ header {
 }
 
 .container {
-  width: 95%;
+  width: 90%;
   height: 100%;
-  background-color: rgba(240, 111, 111, 0.61);
   margin: 0 auto;
-  border: 1px solid black;
 }
 
 /*HEADER*/
-.logo {
-  background-color: rgba(222, 184, 135, 0.363);
+.btn {
+  color: white;
 }
 
-.btn {
-  background-color: rgba(240, 111, 111, 0.61);
-}
 
 ul {
   list-style: none;
@@ -51,8 +50,27 @@ li {
   padding-left: 30px;
 }
 
+/*MAIN*/
 
+main {
+  margin-bottom: 200px;
+}
 
+.row {
+  margin-top: 50px;
+}
+
+.col {
+  width: 100%;
+  background-color: #B5DDFF;
+  border-radius: 20px;
+  height: 358px;
+  margin-bottom: 50px;
+}
+
+.first {
+  height: 605px;
+}
 
 
 
