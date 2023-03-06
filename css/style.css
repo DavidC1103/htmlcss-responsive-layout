@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.desktop {
+  display: none;
+}
+
+header {
+  height: 80px;
+  background-color: blue;
+
+}
+
+.container {
+  width: 95%;
+  height: 100%;
+  background-color: rgba(240, 111, 111, 0.61);
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+/*HEADER*/
+.logo {
+  background-color: rgba(222, 184, 135, 0.363);
+}
+
+.btn {
+  background-color: rgba(240, 111, 111, 0.61);
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  padding-left: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 781px) {
+
+  header .container .btn {
+    display: none;
+  }
+
+  header .container .menu {
+    display: block;
+  }
+}
